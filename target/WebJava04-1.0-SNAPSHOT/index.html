@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="webjars/bootstrap/5.2.3/css/bootstrap.min.css" type="text/css" />
+        <style>
+            body{
+                text-align: center;
+                margin-top: 250px;
+            }
+            h1{
+                font-size: 80px;
+            }
+            .button {
+                display: inline-block;
+                padding: 15px 25px;
+                font-size: 24px;
+                cursor: pointer;
+                text-align: center;
+                text-decoration: none;
+                outline: none;
+                color: #fff;
+                background-color: blue;
+                border: none;
+                border-radius: 15px;
+                box-shadow: 0 9px black;
+            }
+
+            .button:hover {
+                background-color: skyblue;
+            }
+
+            .button:active {
+                background-color: pink;
+                box-shadow: 0 5px black;
+                transform: translateY(4px);
+            }
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box !important;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>INICIO</h1>
+        <ul>
+            <a class="button" href="login.jsp">LOGIN</a><br><br>
+            <a class="button" href="areas.jsp">ÁREAS</a><br><br>
+            <a class="button" href="cargos.jsp">CARGOS</a><br>
+        </ul>
+        <div class="lines">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </body>
+</html>
